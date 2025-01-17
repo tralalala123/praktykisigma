@@ -1,1 +1,3 @@
 # praktykisigma
+
+poce sie srogo
