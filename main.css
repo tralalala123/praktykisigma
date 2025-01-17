@@ -1,0 +1,63 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eafae1;
+    margin: 0;
+    padding: 0;
+}
+.parentcontainer {
+    width: 90%;
+    margin: 0 auto;
+}
+.jumbotron {
+    background-color: #c2f0c2;
+    padding: 20px;
+    text-align: center;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+.product {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+form {
+    margin-top: 10px;
+}
+input[type="number"] {
+    width: 50px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-image: url("tlo.png");
+    padding: 60px;
+    text-align: center;
+    display: none; /* Początkowo obiekt jest ukryty */
+    opacity: 0;
+    transition: opacity 3s  ease-in-out; /* Płynne pokazywanie */
+  }
+
+.flex-container.visible {
+
+    display: block;
+    opacity: 1;
+}
+
+  .przycisk:hover {
+    background-color: #11582f;
+}
